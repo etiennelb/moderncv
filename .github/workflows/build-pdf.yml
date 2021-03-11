@@ -4,7 +4,7 @@ on: [push, pull_request]
 jobs:
   build-template:
     name: Build template
-    runs-on: texlive
+    runs-on: texlive/texlive
     steps:
       #- name: Install TeX Live
       #  run: sudo apt update && sudo apt install texlive-full fonts-font-awesome
